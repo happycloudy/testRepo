@@ -48,8 +48,7 @@ const FooterElement = (props: IFooterElement) => {
                                     {props.url}
                                 </span>
                             </Grid>
-                        </>
-                        :
+                        </> :
                         <Grid item xs className='footer-grid-items anti-spin-item'>
                             <img
                                 onClick={() => setActive(true)}
